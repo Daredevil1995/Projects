@@ -14,27 +14,8 @@ function Navbar() {
              <a href="/football">Football Match</a>  
              </li><li>
              <a href="/author">Article Author</a>   
-            </li> <li>
-             <a href="/author">Article Author</a>   
-            </li> 
-            <li>
-             <a href="/author">Article Author</a>   
-            </li> 
-            <li>
-             <a href="/author">Article Author</a>   
-            </li> 
-            <li>
-             <a href="/author">Article Author</a>   
-            </li> 
-            <li>
-             <a href="/author">Article Author</a>   
-            </li> 
-            <li>
-             <a href="/author">Article Author</a>   
-            </li> 
-            <li>
-             <a href="/author">Article Author</a>   
-            </li> 
+            </li>
+            
         </ol>
     )
 }
