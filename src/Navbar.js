@@ -7,13 +7,13 @@ function Navbar() {
     return (
         <ol className="nav">
             <li>
-             <a href="/sort">Article Sort</a> 
+             <a href="/author">Article Author</a> 
              </li><li>
              <a href="/slider">Slider</a>  
              </li><li>
              <a href="/football">Football Match</a>  
              </li><li>
-             <a href="/author">Article Author</a>   
+             <a href="/sort">Article sort</a>   
             </li>
             
         </ol>

@@ -1,0 +1,47 @@
+In Normal React app
+---------------------
+const App = () => {
+  return <p className="danger">Hello React</p>;
+};
+
+Whenever a React component gets called (rendering), React calls its React.createElement() method internally which returns the following object:
+-------------------------------------------------------------------------------------------------------------------------------------------------
+console.log(App());
+
+ {
+   $$typeof: Symbol(react.element)
+   "type": "p",
+   "key": null,
+   "ref": null,
+   "props": {
+     "children": "Hello React",
+     "className": "danger"
+   },
+   "_owner": null,
+   "_store": {}
+ }
+
+How it will look like in Jutro
+------------------------------- 
+
+    "id": "uniqueId"
+    "type": "container"/"action"/"element",
+    "component": "p"/"button"/"Grid"/"div"/"h3"/"span"/"custom component that is created in Jsx"
+    "content": {
+        "id": "uniqueId",
+        "defaultMessage": "custom message"
+    }
+    "componentProps": {
+     "aria-label": "Screen announcement"
+     "path": "date.effDate",//if date
+     "onClick": "handleFilterClick"// if button
+     "className": "danger",
+     "format": "path",
+     "label": {(children)
+         "id": "uniqueId",
+         "defaultMessage": "custom message",
+     }
+   },
+
+
+ How it will look like in Jutro
